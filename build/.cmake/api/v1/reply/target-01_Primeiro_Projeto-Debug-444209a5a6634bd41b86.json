@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "hello_headers.exe"
+			"path" : "01_Primeiro_Projeto.exe"
 		},
 		{
-			"path" : "hello_headers.pdb"
+			"path" : "01_Primeiro_Projeto.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -52,7 +52,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/include"
+					"path" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/include"
 				}
 			],
 			"language" : "CXX",
@@ -63,7 +63,7 @@
 			]
 		}
 	],
-	"id" : "hello_headers::@6890427a1f51a3e7e1df",
+	"id" : "01_Primeiro_Projeto::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -83,8 +83,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "hello_headers",
-	"nameOnDisk" : "hello_headers.exe",
+	"name" : "01_Primeiro_Projeto",
+	"nameOnDisk" : "01_Primeiro_Projeto.exe",
 	"paths" : 
 	{
 		"build" : ".",

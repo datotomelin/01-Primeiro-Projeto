@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto
+# Install script for directory: C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/hello_headers")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/01_Primeiro_Projeto")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

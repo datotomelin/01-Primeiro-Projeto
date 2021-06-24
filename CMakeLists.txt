@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 # Set the project name
-project (hello_headers)
+project (01_Primeiro_Projeto)
 
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
@@ -13,11 +13,11 @@ set(SOURCES
 )
 
 # Add an executable with the above sources
-add_executable(hello_headers ${SOURCES})
+add_executable(01_Primeiro_Projeto ${SOURCES})
 
 # Set the directories that should be included in the build command for this target
 # when running g++ these will be included as -I/directory/path/
-target_include_directories(hello_headers
+target_include_directories(01_Primeiro_Projeto
     PRIVATE 
         ${PROJECT_SOURCE_DIR}/include
 )

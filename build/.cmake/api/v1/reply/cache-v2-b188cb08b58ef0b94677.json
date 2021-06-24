@@ -2,6 +2,30 @@
 	"entries" : 
 	[
 		{
+			"name" : "01_Primeiro_Projeto_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/build"
+		},
+		{
+			"name" : "01_Primeiro_Projeto_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -55,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/build"
+			"value" : "c:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,10 +179,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/Program Files/mingw-w64/mingw/mingw64/bin/x86_64-w64-mingw32-g++.exe"
 		},
 		{
@@ -299,10 +323,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/Program Files/mingw-w64/mingw/mingw64/bin/x86_64-w64-mingw32-gcc.exe"
 		},
 		{
@@ -647,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto"
+			"value" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +683,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/hello_headers"
+			"value" : "C:/Program Files (x86)/01_Primeiro_Projeto"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -879,7 +903,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "hello_headers"
+			"value" : "01_Primeiro_Projeto"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1256,54 +1280,6 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
-		},
-		{
-			"name" : "Primeiro_Projeto_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/build"
-		},
-		{
-			"name" : "Primeiro_Projeto_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto"
-		},
-		{
-			"name" : "hello_headers_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/build"
-		},
-		{
-			"name" : "hello_headers_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto"
 		}
 	],
 	"kind" : "cache",

@@ -53,16 +53,16 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01 - Primeiro Projeto"
+CMAKE_SOURCE_DIR = C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01_Primeiro_Projeto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01 - Primeiro Projeto\build"
+CMAKE_BINARY_DIR = C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01_Primeiro_Projeto\build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/hello_headers.dir/all
+all: CMakeFiles/01_Primeiro_Projeto.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/hello_headers.dir/clean
+clean: CMakeFiles/01_Primeiro_Projeto.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello_headers.dir
+# Target rules for target CMakeFiles/01_Primeiro_Projeto.dir
 
 # All Build rule for target.
-CMakeFiles/hello_headers.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01 - Primeiro Projeto\build\CMakeFiles" --progress-num=1,2,3 "Built target hello_headers"
-.PHONY : CMakeFiles/hello_headers.dir/all
+CMakeFiles/01_Primeiro_Projeto.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01_Primeiro_Projeto\build\CMakeFiles --progress-num=1,2,3 "Built target 01_Primeiro_Projeto"
+.PHONY : CMakeFiles/01_Primeiro_Projeto.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hello_headers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01 - Primeiro Projeto\build\CMakeFiles" 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/hello_headers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01 - Primeiro Projeto\build\CMakeFiles" 0
-.PHONY : CMakeFiles/hello_headers.dir/rule
+CMakeFiles/01_Primeiro_Projeto.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01_Primeiro_Projeto\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/01_Primeiro_Projeto.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01_Primeiro_Projeto\build\CMakeFiles 0
+.PHONY : CMakeFiles/01_Primeiro_Projeto.dir/rule
 
 # Convenience name for target.
-hello_headers: CMakeFiles/hello_headers.dir/rule
-.PHONY : hello_headers
+01_Primeiro_Projeto: CMakeFiles/01_Primeiro_Projeto.dir/rule
+.PHONY : 01_Primeiro_Projeto
 
 # clean rule for target.
-CMakeFiles/hello_headers.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/clean
-.PHONY : CMakeFiles/hello_headers.dir/clean
+CMakeFiles/01_Primeiro_Projeto.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/clean
+.PHONY : CMakeFiles/01_Primeiro_Projeto.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

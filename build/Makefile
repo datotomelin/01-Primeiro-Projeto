@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01 - Primeiro Projeto"
+CMAKE_SOURCE_DIR = C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01_Primeiro_Projeto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01 - Primeiro Projeto\build"
+CMAKE_BINARY_DIR = C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01_Primeiro_Projeto\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01 - Primeiro Projeto\build\CMakeFiles" "C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01 - Primeiro Projeto\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01_Primeiro_Projeto\build\CMakeFiles C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01_Primeiro_Projeto\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01 - Primeiro Projeto\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Luiz\Desktop\MB\ToT-IPMS\Projetos\Aprendizado\01_Primeiro_Projeto\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello_headers
+# Target rules for targets named 01_Primeiro_Projeto
 
 # Build rule for target.
-hello_headers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hello_headers
-.PHONY : hello_headers
+01_Primeiro_Projeto: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_Primeiro_Projeto
+.PHONY : 01_Primeiro_Projeto
 
 # fast build rule for target.
-hello_headers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/build
-.PHONY : hello_headers/fast
+01_Primeiro_Projeto/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/build
+.PHONY : 01_Primeiro_Projeto/fast
 
 src/Hello.obj: src/Hello.cpp.obj
 .PHONY : src/Hello.obj
 
 # target to build an object file
 src/Hello.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/Hello.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/src/Hello.cpp.obj
 .PHONY : src/Hello.cpp.obj
 
 src/Hello.i: src/Hello.cpp.i
@@ -141,7 +141,7 @@ src/Hello.i: src/Hello.cpp.i
 
 # target to preprocess a source file
 src/Hello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/Hello.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/src/Hello.cpp.i
 .PHONY : src/Hello.cpp.i
 
 src/Hello.s: src/Hello.cpp.s
@@ -149,7 +149,7 @@ src/Hello.s: src/Hello.cpp.s
 
 # target to generate assembly for a file
 src/Hello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/Hello.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/src/Hello.cpp.s
 .PHONY : src/Hello.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -157,7 +157,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -165,7 +165,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -173,7 +173,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -184,7 +184,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... hello_headers
+	@echo ... 01_Primeiro_Projeto
 	@echo ... src/Hello.obj
 	@echo ... src/Hello.i
 	@echo ... src/Hello.s

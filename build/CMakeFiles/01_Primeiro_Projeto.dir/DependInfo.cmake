@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/src/Hello.cpp" "CMakeFiles/hello_headers.dir/src/Hello.cpp.obj" "gcc" "CMakeFiles/hello_headers.dir/src/Hello.cpp.obj.d"
-  "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/src/main.cpp" "CMakeFiles/hello_headers.dir/src/main.cpp.obj" "gcc" "CMakeFiles/hello_headers.dir/src/main.cpp.obj.d"
+  "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/src/Hello.cpp" "CMakeFiles/01_Primeiro_Projeto.dir/src/Hello.cpp.obj" "gcc" "CMakeFiles/01_Primeiro_Projeto.dir/src/Hello.cpp.obj.d"
+  "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/src/main.cpp" "CMakeFiles/01_Primeiro_Projeto.dir/src/main.cpp.obj" "gcc" "CMakeFiles/01_Primeiro_Projeto.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

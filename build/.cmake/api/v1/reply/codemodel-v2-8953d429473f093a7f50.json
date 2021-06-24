@@ -26,7 +26,7 @@
 					[
 						0
 					],
-					"name" : "hello_headers",
+					"name" : "01_Primeiro_Projeto",
 					"targetIndexes" : 
 					[
 						0
@@ -37,9 +37,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "hello_headers::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hello_headers-Debug-5cf9a9bbd4896a65fb82.json",
-					"name" : "hello_headers",
+					"id" : "01_Primeiro_Projeto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_Primeiro_Projeto-Debug-444209a5a6634bd41b86.json",
+					"name" : "01_Primeiro_Projeto",
 					"projectIndex" : 0
 				}
 			]
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/build",
-		"source" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto"
+		"build" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/build",
+		"source" : "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto"
 	},
 	"version" : 
 	{
