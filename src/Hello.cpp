@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Hello.h"
+#include "../include/Hello.h"
 
 void Hello::print()
 {

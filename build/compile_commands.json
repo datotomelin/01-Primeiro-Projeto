@@ -8,5 +8,10 @@
   "directory": "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/build",
   "command": "C:\\PROGRA~1\\MINGW-~1\\mingw\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/01_Primeiro_Projeto.dir/includes_CXX.rsp -g -o CMakeFiles\\01_Primeiro_Projeto.dir\\src\\main.cpp.obj -c C:\\Users\\Luiz\\Desktop\\MB\\ToT-IPMS\\Projetos\\Aprendizado\\01_Primeiro_Projeto\\src\\main.cpp",
   "file": "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/src/main.cpp"
+},
+{
+  "directory": "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\mingw\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/01_Primeiro_Projeto.dir/includes_CXX.rsp -g -o CMakeFiles\\01_Primeiro_Projeto.dir\\src\\Conta.cpp.obj -c C:\\Users\\Luiz\\Desktop\\MB\\ToT-IPMS\\Projetos\\Aprendizado\\01_Primeiro_Projeto\\src\\Conta.cpp",
+  "file": "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01_Primeiro_Projeto/src/Conta.cpp"
 }
 ]

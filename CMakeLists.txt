@@ -10,6 +10,7 @@ project (01_Primeiro_Projeto)
 set(SOURCES
     src/Hello.cpp
     src/main.cpp
+    src/Conta.cpp
 )
 
 # Add an executable with the above sources

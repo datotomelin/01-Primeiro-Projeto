@@ -128,6 +128,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/build
 .PHONY : 01_Primeiro_Projeto/fast
 
+src/Conta.obj: src/Conta.cpp.obj
+.PHONY : src/Conta.obj
+
+# target to build an object file
+src/Conta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/src/Conta.cpp.obj
+.PHONY : src/Conta.cpp.obj
+
+src/Conta.i: src/Conta.cpp.i
+.PHONY : src/Conta.i
+
+# target to preprocess a source file
+src/Conta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/src/Conta.cpp.i
+.PHONY : src/Conta.cpp.i
+
+src/Conta.s: src/Conta.cpp.s
+.PHONY : src/Conta.s
+
+# target to generate assembly for a file
+src/Conta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Primeiro_Projeto.dir\build.make CMakeFiles/01_Primeiro_Projeto.dir/src/Conta.cpp.s
+.PHONY : src/Conta.cpp.s
+
 src/Hello.obj: src/Hello.cpp.obj
 .PHONY : src/Hello.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 01_Primeiro_Projeto
+	@echo ... src/Conta.obj
+	@echo ... src/Conta.i
+	@echo ... src/Conta.s
 	@echo ... src/Hello.obj
 	@echo ... src/Hello.i
 	@echo ... src/Hello.s

@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "01_Primeiro_Projeto.exe"
   "01_Primeiro_Projeto.exe.manifest"
   "01_Primeiro_Projeto.pdb"
+  "CMakeFiles/01_Primeiro_Projeto.dir/src/Conta.cpp.obj"
+  "CMakeFiles/01_Primeiro_Projeto.dir/src/Conta.cpp.obj.d"
   "CMakeFiles/01_Primeiro_Projeto.dir/src/Hello.cpp.obj"
   "CMakeFiles/01_Primeiro_Projeto.dir/src/Hello.cpp.obj.d"
   "CMakeFiles/01_Primeiro_Projeto.dir/src/main.cpp.obj"
