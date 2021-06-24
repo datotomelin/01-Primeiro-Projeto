@@ -1,0 +1,3 @@
+C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/build/CMakeFiles/hello_headers.dir
+C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/build/CMakeFiles/edit_cache.dir
+C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/build/CMakeFiles/rebuild_cache.dir

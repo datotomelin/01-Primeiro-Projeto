@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\mingw\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/hello_headers.dir/includes_CXX.rsp -g -o CMakeFiles\\hello_headers.dir\\src\\Hello.cpp.obj -c \"C:\\Users\\Luiz\\Desktop\\MB\\ToT-IPMS\\Projetos\\Aprendizado\\01 - Primeiro Projeto\\src\\Hello.cpp\"",
+  "file": "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/src/Hello.cpp"
+},
+{
+  "directory": "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\mingw\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/hello_headers.dir/includes_CXX.rsp -g -o CMakeFiles\\hello_headers.dir\\src\\main.cpp.obj -c \"C:\\Users\\Luiz\\Desktop\\MB\\ToT-IPMS\\Projetos\\Aprendizado\\01 - Primeiro Projeto\\src\\main.cpp\"",
+  "file": "C:/Users/Luiz/Desktop/MB/ToT-IPMS/Projetos/Aprendizado/01 - Primeiro Projeto/src/main.cpp"
+}
+]
